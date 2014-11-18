@@ -1,0 +1,8 @@
+$ cat .gitignore
+
+# ignore specific files
+php_errors.log
+
+
+# ignore directories 
+/css-compiled
