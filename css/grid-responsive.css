@@ -1,0 +1,24 @@
+/**
+* @author    Kai Döhler based upon RocketTheme http://www.rockettheme.com
+*/
+
+body [class*="rt-grid"] {display: inline;float: left;position: relative;margin: 0;}
+
+.rt-grid-6b {width: 575px;}
+.rt-push-6b {left: 575px;}
+.rt-pull-6b {left: -575px;}
+.rt-prefix-6b {padding-left: 575px;}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    .rt-grid-6b {width: 455px;}
+	.rt-push-6b {left: 455px;}
+	.rt-pull-6b {left: -455px;}
+	.rt-prefix-6b {padding-left: 455px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .rt-grid-6b {width: 359px;}
+	.rt-push-6b {left: 359px;}
+	.rt-pull-6b {left: -359px;}
+	.rt-prefix-6b {padding-left: 359px;}
+}
