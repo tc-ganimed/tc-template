@@ -15,6 +15,10 @@ echo JLayoutHelper::render('joomla.content.categories_default', $this);
 echo $this->loadTemplate('items');
 ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+</div>
+>>>>>>> fef9a7547372da1e227045a7d7be90137cf55e05
 =======
 </div>
 >>>>>>> fef9a7547372da1e227045a7d7be90137cf55e05

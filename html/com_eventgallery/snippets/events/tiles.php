@@ -16,8 +16,11 @@ defined('_JEXEC') or die('Restricted access');
 $cache = JFactory::getCache('com_eventgallery');
 ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> fef9a7547372da1e227045a7d7be90137cf55e05
 <script type="text/javascript">
 
     var eventgalleryEventsList;
@@ -89,6 +92,9 @@ div.eventgallery-tiles {
     width: 70%;
 }
 </style>
+<<<<<<< HEAD
+>>>>>>> fef9a7547372da1e227045a7d7be90137cf55e05
+=======
 >>>>>>> fef9a7547372da1e227045a7d7be90137cf55e05
 <div class="eventgallery-tiles-list">
     <?php if ($this->params->get('show_page_heading', 1)) : ?>
