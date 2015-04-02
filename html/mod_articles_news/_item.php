@@ -11,15 +11,7 @@ defined('_JEXEC') or die;
 $item_heading = $params->get('item_heading', 'h4');
 $images = json_decode($item->images);
 ?>
-<<<<<<< HEAD
-<<<<<<< HEAD
 <div class="rt-block">
-=======
-<div class="rt-block rt-grid-6b">
->>>>>>> fef9a7547372da1e227045a7d7be90137cf55e05
-=======
-<div class="rt-block rt-grid-6b">
->>>>>>> fef9a7547372da1e227045a7d7be90137cf55e05
 	<div class="table">
 		<div class="img_container cell" style="background-image: url('<?php echo htmlspecialchars($images->image_intro); ?>');"></div>
 		<div class="text_container cell">
